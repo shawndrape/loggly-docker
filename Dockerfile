@@ -1,18 +1,7 @@
-#################################################################
-#
-#                    ##        .
-#              ## ## ##       ==
-#           ## ## ## ##      ===
-#       /""""""""""""""""\___/ ===
-#  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
-#       \______ o          __/
-#         \    \        __/
-#          \____\______/
-#
-#################################################################
+# modified from Sendgrid Labs' fantastic (Loggly container example)[https://github.com/sendgridlabs/loggly-docker]
 
 FROM ubuntu:trusty
-MAINTAINER Jonathan Short <jonathan.short@sendgrid.com>
+MAINTAINER Shawn Drape <shawn@dra.pe>
 
 RUN apt-get update
 RUN apt-get -y dist-upgrade
